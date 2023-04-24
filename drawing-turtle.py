@@ -20,9 +20,7 @@ class TurtleController(Node):
 def main(args=None):
     rclpy.init(args=args)
     turtle_controller = TurtleController()
-    print("OH MAH GAWD!")
     rclpy.spin(turtle_controller)
-    print("OH MAH GAWD!")
     turtle_controller.destroy_node()
     rclpy.shutdown()
 
